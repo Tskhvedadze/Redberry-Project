@@ -1,0 +1,9 @@
+@import '../../styles/colors.scss';
+
+.header {
+    align-self: stretch;
+    margin: 0 70px;
+    &--underline {
+        border-bottom: 1px solid $--black--1;
+    }
+}

@@ -1,20 +1,22 @@
 import React from 'react'
 import './home.scss'
 
-import logo from '../../assets/images/png/redberry.png'
+import logo from '../../assets/images/redberry.png'
+import shutterstock from '../../assets/images/shutterstock.png'
+import { Header } from '../../components'
 
 const Home = () => {
     return (
         <>
-            <main className='main__section'>
-                <header className='main__section__header'>
+            <img className='img' src={shutterstock} alt='shutterstock' />
+            <main className='main'>
+                <Header>
                     <img
-                        className='main__section__header--logo'
+                        className={'main__section--logo'}
                         src={logo}
                         alt='redberry'
                     />
-                    <div className='main__section__header--underline' />
-                </header>
+                </Header>
                 <button className='main__section--btn'>
                     რეზიუმეს დამატება
                 </button>

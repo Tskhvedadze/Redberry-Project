@@ -1,0 +1,15 @@
+@import '../../styles/colors.scss';
+@import '../../styles/functions.scss';
+
+.btn {
+    all: unset;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: pxToRem(16);
+
+    background: $--pink;
+    border-radius: pxToRem(4);
+    padding: pxToRem(14) pxToRem(35);
+    color: $--white--1;
+}
