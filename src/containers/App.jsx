@@ -1,10 +1,9 @@
-import About from '../pages/about/About'
+import Home from '../pages/home/Home'
 
 function App() {
     return (
         <>
-            <h1>home page</h1>
-            <About />
+            <Home />
         </>
     )
 }
