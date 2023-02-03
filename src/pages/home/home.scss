@@ -1,34 +1,30 @@
-@import '../../styles/colors.scss';
-@import '../../styles/functions.scss';
-
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    &__section {
-        &--btn {
-            font-weight: 500;
-            font-size: pxToRem(20);
-            padding: pxToRem(18) pxToRem(126);
-            background: $--black--1;
-            border-radius: pxToRem(16);
-            color: $--white--1;
-            border: pxToRem(1) solid $--black--1;
-            cursor: pointer;
-            margin-top: pxToRem(424);
-        }
-
-        &--logo {
-            width: pxToRem(236);
-            margin: pxToRem(25) 0 pxToRem(26) 0;
-        }
-    }
-}
+@import '../../styles/_global.scss';
 
 .img {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo {
+        width: pxToRem(236);
+        margin: pxToRem(25) 0 pxToRem(26) 0;
+    }
+    &__btn {
+        font-weight: $--large;
+        font-size: $--size--20;
+        font-family: $--helvetica;
+        padding: pxToRem(18) pxToRem(126);
+        background: $--black--1;
+        border-radius: $--radius--8;
+        color: $--white--1;
+        border: pxToRem(1) solid $--black--1;
+        margin-top: pxToRem(424);
+        cursor: pointer;
+    }
 }
