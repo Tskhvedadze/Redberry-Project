@@ -1,9 +1,10 @@
 @import '../../styles/colors.scss';
+@import '../../styles/functions.scss';
 
 .header {
     align-self: stretch;
-    margin: 0 70px;
+    margin: 0 pxToRem(70);
     &--underline {
-        border-bottom: 1px solid $--black--1;
+        border-bottom: pxToRem(1) solid $--black--1;
     }
 }
