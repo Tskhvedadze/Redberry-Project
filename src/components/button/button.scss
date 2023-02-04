@@ -5,9 +5,9 @@
     font-family: $--helvetica;
     font-weight: $--large;
     font-size: $--size--16;
-
     background: $--pink;
     border-radius: $--radius--4;
     padding: pxToRem(14) pxToRem(35);
     color: $--white--1;
+    cursor: pointer;
 }

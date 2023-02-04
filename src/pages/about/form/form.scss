@@ -1,0 +1,33 @@
+@import '../../../styles/_global.scss';
+
+input.input-error {
+    border-color: $--red--1;
+}
+
+button:disabled {
+    opacity: 0.35;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    &__inputContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &--firstInput {
+            display: flex;
+            flex-direction: column;
+            label {
+                margin-bottom: pxToRem(8);
+            }
+        }
+        &--secondInput {
+            display: flex;
+            flex-direction: column;
+            label {
+                margin-bottom: pxToRem(8);
+            }
+        }
+    }
+}
